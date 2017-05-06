@@ -1,0 +1,34 @@
+\ifx\undefined\BibEmph\def\BibEmph#1{#1}\else\fi
+\ifx\undefined\href\def\href#1#2{#2}\else\fi
+\ifx\undefined\url\def\url#1{\texttt{#1}}\else\fi
+\ifx\undefined\urlprefix\def\urlprefix{URL: }\else\fi
+\ifx\undefined\BibUrl\def\BibUrl#1{\urlprefix\url{#1}}\else\fi
+\ifx\undefined\BibUrlDate\long\def\BibUrlDate#1{({%
+\cyr\cyrd\cyra\cyrt\cyra\ %
+\cyro\cyrb\cyrr\cyra\cyrshch\cyre\cyrn\cyri\cyrya}: #1)}\else\fi
+\ifx\undefined\BibAnnote\long\def\BibAnnote#1{#1}\else\fi
+\begin{thebibliography}{1}
+\def\selectlanguageifdefined#1{
+\expandafter\ifx\csname date#1\endcsname\relax
+\else\language\csname l@#1\endcsname\fi}
+
+\bibitem{Gladun:PrakTermodin}
+\selectlanguageifdefined{russian}
+\BibEmph{Гладун~А.Д.} Лабораторный практикум по
+  общей физике. Том 1. Термодинамика и
+  молекулярная физика.
+\newblock Москва: МФТИ, 2012.
+
+\bibitem{Stat:Agafon}
+\selectlanguageifdefined{english}
+\BibEmph{Никалевич~Агафонов~Иван}.
+\newblock Измерение вязкости жидкостей по
+  затуханию колебаний камертона.
+
+\bibitem{Grigoriev:Fiz_Velichini}
+\selectlanguageifdefined{russian}
+\BibEmph{Григорьев~И.С.~Мейлихов~Е.З.}
+  Физические величины.
+\newblock 1991.
+
+\end{thebibliography}
