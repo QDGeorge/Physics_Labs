@@ -3,3 +3,5 @@
 *.gz
 *.aux
 *.synctex
+*.bbl
+*.blg
