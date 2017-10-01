@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2016.12.11)  1 FEB 2017 15:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2016.11.13)  20 SEP 2017 17:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -725,7 +725,7 @@ Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
 Package: csquotes 2016/07/14 v5.1h context-sensitive quotations (JAW)
 
 (d:/texlive/2016/texmf-dist/tex/latex/etoolbox/etoolbox.sty
-Package: etoolbox 2016/12/01 v2.2b e-TeX tools for LaTeX (JAW)
+Package: etoolbox 2015/08/02 v2.2a e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count104
 )
 \csq@reset=\count105
@@ -1029,9 +1029,10 @@ Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
 \LT@p@ftn=\toks33
 )
 (d:/texlive/2016/texmf-dist/tex/latex/multirow/multirow.sty
-Package: multirow 2016/11/25 v2.2 Span multiple rows of a table
+Package: multirow 2016/10/11 v2.1 Span multiple rows of a table
 \multirow@colwidth=\skip62
-\multirow@cntb=\count143
+\multirow@cnta=\count143
+\multirow@cntb=\count144
 \multirow@dima=\skip63
 \bigstrutjot=\dimen164
 )
@@ -1049,7 +1050,7 @@ Package caption3 Info: TeX engine: e-TeX on input line 67.
 \caption@parindent=\dimen170
 \caption@hangindent=\dimen171
 )
-\c@ContinuedFloat=\count144
+\c@ContinuedFloat=\count145
 Package caption Info: hyperref package is loaded.
 Package caption Info: longtable package is loaded.
 
@@ -1070,22 +1071,22 @@ Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
 \titlewidthlast=\dimen175
 \titlewidthfirst=\dimen176
 )
-\c@theorem=\count145
-\c@definition=\count146
-\c@corollary=\count147
-\c@problem=\count148
-\c@zamech=\count149
+\c@theorem=\count146
+\c@definition=\count147
+\c@corollary=\count148
+\c@problem=\count149
+\c@zamech=\count150
 
 (d:/texlive/2016/texmf-dist/tex/latex/base/alltt.sty
 Package: alltt 1997/06/16 v2.0g defines alltt environment
 )
-\c@infa=\count150
+\c@infa=\count151
 )
 (d:/texlive/2016/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2010/09/12 v5.6 Page Geometry
-\Gm@cnth=\count151
-\Gm@cntv=\count152
-\c@Gm@tempcnt=\count153
+\Gm@cnth=\count152
+\Gm@cntv=\count153
+\c@Gm@tempcnt=\count154
 \Gm@bindingoffset=\dimen177
 \Gm@wd@mp=\dimen178
 \Gm@odd@mp=\dimen179
@@ -1125,16 +1126,16 @@ LaTeX Font Info:    ... okay on input line 8.
 
 (d:/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count154
+\scratchcounter=\count155
 \scratchdimen=\dimen185
 \scratchbox=\box60
-\nofMPsegments=\count155
-\nofMParguments=\count156
+\nofMPsegments=\count156
+\nofMParguments=\count157
 \everyMPshowfont=\toks36
-\MPscratchCnt=\count157
+\MPscratchCnt=\count158
 \MPscratchDim=\dimen186
-\MPnumerator=\count158
-\makeMPintoPDFobject=\count159
+\MPnumerator=\count159
+\makeMPintoPDFobject=\count160
 \everyMPtoPDFconversion=\toks37
 ) (d:/texlive/2016/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
@@ -1162,7 +1163,7 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 (d:/texlive/2016/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count160
+\c@section@level=\count161
 )
 LaTeX Info: Redefining \ref on input line 8.
 LaTeX Info: Redefining \pageref on input line 8.
@@ -1326,13 +1327,20 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 312.
  (./texstudio_gI7056.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 312.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 312.
-Package rerunfilecheck Info: File `texstudio_gI7056.out' has not changed.
-(rerunfilecheck)             Checksum: B52A88D1C5EC41605C536139DE7AE1AD;860.
+
+
+Package rerunfilecheck Warning: File `texstudio_gI7056.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `texstudio_gI7056.out':
+(rerunfilecheck)             Before: E73416CFCC62ED9AACEB90A986F83EE0;864
+(rerunfilecheck)             After:  B52A88D1C5EC41605C536139DE7AE1AD;860.
  ) 
 Here is how much of TeX's memory you used:
  14741 strings out of 493013
- 207419 string characters out of 6136992
- 313537 words of memory out of 5000000
+ 207414 string characters out of 6136992
+ 313522 words of memory out of 5000000
  17992 multiletter control sequences out of 15000+600000
  18676 words of font info for 49 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191

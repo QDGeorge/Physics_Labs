@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2016.12.11)  2 FEB 2017 23:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2016.11.13)  20 SEP 2017 17:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -722,7 +722,7 @@ Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
 Package: csquotes 2016/07/14 v5.1h context-sensitive quotations (JAW)
 
 (d:/texlive/2016/texmf-dist/tex/latex/etoolbox/etoolbox.sty
-Package: etoolbox 2016/12/01 v2.2b e-TeX tools for LaTeX (JAW)
+Package: etoolbox 2015/08/02 v2.2a e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count104
 )
 \csq@reset=\count105
@@ -1026,9 +1026,10 @@ Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
 \LT@p@ftn=\toks33
 )
 (d:/texlive/2016/texmf-dist/tex/latex/multirow/multirow.sty
-Package: multirow 2016/11/25 v2.2 Span multiple rows of a table
+Package: multirow 2016/10/11 v2.1 Span multiple rows of a table
 \multirow@colwidth=\skip62
-\multirow@cntb=\count143
+\multirow@cnta=\count143
+\multirow@cntb=\count144
 \multirow@dima=\skip63
 \bigstrutjot=\dimen164
 )
@@ -1046,7 +1047,7 @@ Package caption3 Info: TeX engine: e-TeX on input line 67.
 \caption@parindent=\dimen170
 \caption@hangindent=\dimen171
 )
-\c@ContinuedFloat=\count144
+\c@ContinuedFloat=\count145
 Package caption Info: hyperref package is loaded.
 Package caption Info: longtable package is loaded.
 
@@ -1055,11 +1056,11 @@ Package: ltcaption 2013/06/09 v1.4-94 longtable captions (AR)
 )
 Package caption Info: wrapfig package is loaded.
 )
-\c@theorem=\count145
-\c@definition=\count146
-\c@corollary=\count147
-\c@problem=\count148
-\c@zamech=\count149
+\c@theorem=\count146
+\c@definition=\count147
+\c@corollary=\count148
+\c@problem=\count149
+\c@zamech=\count150
 
 (d:/texlive/2016/texmf-dist/tex/latex/titlesec/titlesec.sty
 Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
@@ -1075,9 +1076,9 @@ Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
 )
 (d:/texlive/2016/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2010/09/12 v5.6 Page Geometry
-\Gm@cnth=\count150
-\Gm@cntv=\count151
-\c@Gm@tempcnt=\count152
+\Gm@cnth=\count151
+\Gm@cntv=\count152
+\c@Gm@tempcnt=\count153
 \Gm@bindingoffset=\dimen177
 \Gm@wd@mp=\dimen178
 \Gm@odd@mp=\dimen179
@@ -1116,16 +1117,16 @@ LaTeX Font Info:    ... okay on input line 110.
 
 (d:/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count153
+\scratchcounter=\count154
 \scratchdimen=\dimen185
 \scratchbox=\box60
-\nofMPsegments=\count154
-\nofMParguments=\count155
+\nofMPsegments=\count155
+\nofMParguments=\count156
 \everyMPshowfont=\toks36
-\MPscratchCnt=\count156
+\MPscratchCnt=\count157
 \MPscratchDim=\dimen186
-\MPnumerator=\count157
-\makeMPintoPDFobject=\count158
+\MPnumerator=\count158
+\makeMPintoPDFobject=\count159
 \everyMPtoPDFconversion=\toks37
 ) (d:/texlive/2016/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
@@ -1153,7 +1154,7 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 (d:/texlive/2016/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count159
+\c@section@level=\count160
 )
 LaTeX Info: Redefining \ref on input line 110.
 LaTeX Info: Redefining \pageref on input line 110.
@@ -1394,10 +1395,10 @@ Package babel Info: Redefining russian shorthand "~
 (babel)             in language  on input line 568.
 [9]
 Package epstopdf Info: Source file: <graph.eps>
-(epstopdf)                    date: 2016-12-12 02:28:13
-(epstopdf)                    size: 209874 bytes
+(epstopdf)                    date: 2017-05-10 00:14:00
+(epstopdf)                    size: 229332 bytes
 (epstopdf)             Output file: <graph-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-12-12 02:29:16
+(epstopdf)                    date: 2017-05-10 00:14:00
 (epstopdf)                    size: 75821 bytes
 (epstopdf)             Command: <repstopdf --outfile=graph-eps-converted-to.pdf
  graph.eps>
@@ -1454,8 +1455,8 @@ Package rerunfilecheck Info: File `document.out' has not changed.
  ) 
 Here is how much of TeX's memory you used:
  14913 strings out of 493013
- 209274 string characters out of 6136992
- 319490 words of memory out of 5000000
+ 209269 string characters out of 6136992
+ 319475 words of memory out of 5000000
  18107 multiletter control sequences out of 15000+600000
  26579 words of font info for 69 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
