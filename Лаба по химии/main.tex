@@ -1,0 +1,91 @@
+\documentclass[a4paper,12pt]{article}
+\include{preambula}
+
+\renewcommand{\baselinestretch}{1.3}
+
+\title{vopr}
+\author{Георгий Демьянов}
+\date{today}
+\usepackage[left=1.27cm,right=1.27cm,top=1.27cm,bottom=2cm]{geometry}
+
+\begin{document}
+
+\include{titlepage}
+
+\textit{Задание:} титруем 8 мл 0.05 н. CH$_3$COOH 0.05 н. NaOH. K$_{\text{д}} = 1.86\cdot 10^{-5}$. Построить кривую титрования, подобрать индикатор для данного процесса. Привести расчеты всех точек титрования.
+
+В качестве индикатора можно выбрать метиловый оранжевый.
+\begin{enumerate}
+	\item V(NaOH)$_{\text{доб}}$ = 0 мл
+	\begin{center}
+	$\overset{C - x}{\text{CH$_3$COOH}}$ $\leftrightarrows$ $\overset{x}{\text{CH}_3\text{COO}^-}$ + $\overset{x}{\text{H}^+}$
+	\end{center}
+	$K_{\text{д}} = \cfrac{x^2}{C-x}$ $\Rightarrow$ $x = 9.55\cdot 10^{-4}$ моль/л $\Rightarrow$ pH $= 3.02$
+	\item Далее до добавления 8 мл NaOH раствор является буферным. Формула для расчета pH буферного раствора:
+	\begin{equation}\label{phb}
+	pH = pK + \lg{\cfrac{C_{\text{соли}}}{C_{\text{к-ты}}}}
+	\end{equation}
+	Запишем концентрацию кислоты при добавлении $V$ л NaOH:
+	$$C(CH_3COOH) = \frac{0.05(0.008-V)}{0.008+V}$$
+	Тогда концентрация соли в растворе
+	$$C(CH_3COONa) = \cfrac{0.05V}{0.008+V}$$
+	Подставляя данные уравнения в формулу \eqref{phb}, получим\\
+	$
+	pH=pK+\lg\cfrac{0.05V}{0.05(0.008-V)}
+	$\\
+	Отсюда
+	\begin{equation}
+	pH=pK-\lg\left(\cfrac{8}{V(NaOH)_{\text{доб}}}-1 \right)
+	\end{equation}
+	Т.к. формула \eqref{phb} была выведена в приближении, что концентрации соли и кислоты велики, то при очень малых порциях $V(NaOH)_{\text{доб}}$ (до $V(NaOH)_{\text{доб}}$ = 0.4 мл) будем считать зависимость линейной.
+	\item $V(NaOH)_{\text{доб}}$ = 8 мл. В колбе находится только соль $CH_3COONa$.\\
+	Запишем уравнение гидролиза
+	$$
+	CH_3COO^- + H_2O\leftrightarrows CH_3COOH + OH^-
+	$$
+	$K_{\text{г}} = \frac{K_w}{K_{\text{д}}} = 5.38 \cdot 10^{-10}.$ Отсюда аналогично подсчетам в п.1, получаем\\
+	$
+	[OH^-] = 3.67\cdot 10^{-6} \text{ моль/л}
+	$, откуда
+	$$
+	pH=14+\lg[OH^-]=8.56
+	$$
+	\item При дальнейшем добавлении NaOH можно считать вклад гидролиза равным нулю (вследствие смещения равновесия). Тогда концентрацию $OH^-$ ионов можно найти из концентрации добавленного после точки эквивалента NaOH: $[OH^-] = \cfrac{0.05\left(V(NaOH)_{\text{доб}}-8\right)}{V(NaOH)_{\text{доб}}+8}$. Отсюда
+	\begin{equation}
+	pH=14+\lg\cfrac{0.05\left(V(NaOH)_{\text{доб}}-8\right)}{V(NaOH)_{\text{доб}}+8}
+	\end{equation}
+\end{enumerate}
+Окончательно нанесем все функции и точки на плоскость и построим график:
+\begin{comment}
+\begin{figure}
+	\centering
+	\includegraphics[angle=90, width=\linewidth]{graph}
+	\caption{Зависимость $pH (V(NaOH)_{\text{доб}})$}
+	\label{Fig:graph}
+\end{figure}
+\end{comment}
+\begin{sidewaysfigure}
+	
+	\centerline{\epsfig{file=graph.pdf, scale=0.75}}
+	
+	\caption{Зависимость $pH (V(NaOH)_{\text{доб}})$}
+	
+	\label{label_this_fig}
+	
+\end{sidewaysfigure}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\end{document}
