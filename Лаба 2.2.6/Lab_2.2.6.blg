@@ -1,11 +1,11 @@
-This is BibTeX, Version 0.99d (TeX Live 2016/W32TeX)
+This is BibTeX, Version 0.99d (TeX Live 2017/W32TeX)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: Lab_2.2.6.aux
 The style file: gost705.bst
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Database file #1: mybibliography.bib
 Warning--entry type for "Stat:Agafon" isn't style-file defined
---line 44 of file mybibliography.bib
+--line 87 of file mybibliography.bib
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 You've used 3 entries,
             3225 wiz_defined-function locations,
